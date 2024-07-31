@@ -1,0 +1,129 @@
+.header {
+  background-color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  position: fixed; /* Fixa a navbar no topo */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Garante que a navbar esteja acima de outros elementos */
+  transition: background-color 0.3s ease, padding 0.3s ease; /* Transição suave para mudanças */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve para destacar a navbar */
+}
+
+.header.scrolled {
+  background-color: #146db0; /* Cor de fundo alterada ao rolar */
+  padding: 10px 0; /* Reduz o padding ao rolar */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve para destacar a navbar */
+  opacity: 1 !important; /* Garante que a opacidade seja 100% */
+}
+
+.header.scrolled h1 {
+  color: white;
+}
+
+.header.scrolled .item-link {
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+  padding: 10px 15px; /* Adiciona padding para melhorar a aparência */
+  display: inline-block; /* Para que o padding funcione corretamente */
+  transition: background-color 0.3s ease, padding 0.3s ease; /* Adiciona transição suave */
+}
+
+.header.scrolled .item-link:hover {
+  background-color: #fff;
+  padding: 12px 20px; /* Aumenta o padding ao passar o mouse */
+  color: #146db0; /* Muda a cor do texto para um contraste melhor */
+}
+
+
+.header h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #146db0;
+}
+
+.navbar {
+  display: flex;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.item-link {
+  cursor: pointer;
+  color: #146db0;
+  text-decoration: none;
+  list-style: none;
+  padding: 10px 15px; /* Adiciona padding para melhorar a aparência */
+  display: inline-block; /* Para que o padding funcione corretamente */
+  transition: background-color 0.3s ease, padding 0.3s ease; /* Adiciona transição suave */
+}
+
+.item-link:hover {
+  background-color: #146db0;
+  padding: 12px 20px; /* Aumenta o padding ao passar o mouse */
+  color: #ffffff; /* Muda a cor do texto para um contraste melhor */
+}
+
+
+
+/************************Header Fixo na landing page************************/
+/*
+.header {
+  background-color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #146db09d;
+}
+
+.navbar {
+  display: flex;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.item-link {
+  cursor: pointer;
+  color: #146db09d;
+  text-decoration: none;
+  list-style: none;
+  padding: 10px 15px; Adiciona padding para melhorar a aparência 
+  display: inline-block; /* Para que o padding funcione corretamente 
+  transition: background-color 0.3s ease, padding 0.3s ease; /* Adiciona transição suave 
+}
+
+.item-link:hover {
+  background-color: #146db09d;
+  padding: 12px 20px; /* Aumenta o padding ao passar o mouse 
+  color: #ffffff; /* Muda a cor do texto para um contraste melhor 
+ 
+}
+*/

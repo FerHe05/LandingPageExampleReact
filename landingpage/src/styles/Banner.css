@@ -1,0 +1,57 @@
+.banner {
+  width: 100%;
+  min-height: 100vh; /* Garante que o banner ocupe pelo menos 100% da altura da viewport */
+  display: flex;
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: center; /* Centraliza horizontalmente */
+  background: url('../assets/background.jpg') no-repeat center center; /* Define a imagem de fundo */
+  background-size: cover; /* Ajusta o tamanho da imagem de fundo para cobrir a área */
+  color: #fff; /* Cor do texto para garantir contraste com o background */
+  padding: 60px 0; /* Espaço para a navbar */
+  box-sizing: border-box; /* Inclui padding e border no cálculo da largura e altura */
+}
+
+
+.text-left-banner {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.text-left-banner h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.text-left-banner p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.banner-animation {
+  flex: 1;
+  display: flex;
+  justify-content: center; /* Centraliza a animação horizontalmente */
+  align-items: center; /* Centraliza a animação verticalmente */
+}
+
+.animations-banner {
+  max-width: 500px; /* Define a largura máxima da animação */
+  width: 100%; /* Ajusta a largura para ocupar o máximo possível dentro da largura máxima */
+  height: auto; /* Mantém a proporção da altura */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .text-left-banner {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .banner-animation {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/************ Default Css ************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  background-color: #fff !important;
+  color: #000000 !important;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section {
+  width: 100%;
+  min-height: 100vh; /* Usa min-height em vez de height para garantir que cada seção ocupe pelo menos 100% da altura da viewport */
+  display: flex;
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: center; /* Centraliza horizontalmente */
+  background-color: #fff; /* Cor de fundo */
+  box-sizing: border-box; /* Inclui padding e border no cálculo da largura e altura */
+}
+
+.section h2 {
+  margin-top: 0;
+}

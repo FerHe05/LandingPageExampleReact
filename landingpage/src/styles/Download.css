@@ -1,0 +1,70 @@
+.text-download {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Alinha o texto à esquerda */
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Alinha o texto à esquerda */
+  margin-right: 100px;
+}
+
+.text-download h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.text-download p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.button-group-download {
+  display: flex;
+  justify-content: center; /* Centraliza os botões */
+  width: 100%; /* Garante que o contêiner dos botões ocupe 100% da largura do texto */
+  gap: 20px; /* Espaçamento entre os botões */
+  margin-top: 20px;
+}
+
+.btn-download {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.android {
+  background-color: #3ddc84;
+  color: #fff;
+}
+
+.android:hover {
+  background-color: #35c374;
+}
+
+.ios {
+  background-color: #000;
+  color: #fff;
+}
+
+.ios:hover {
+  background-color: #333;
+}
+
+.animation-download {
+  display: flex;
+  justify-content: center; /* Centraliza a animação horizontalmente */
+  align-items: center; /* Centraliza a animação verticalmente */
+}
+
+.animations-download {
+  max-width: 700px; /* Aumenta a largura máxima da animação */
+  width: 100%; /* Ajusta a largura para ocupar o máximo possível dentro da largura máxima */
+  height: auto; /* Mantém a proporção da altura */
+}
